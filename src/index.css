@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.349);
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 10vh;
+}
+
+.nav-bar {
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.layout-main {
+  width: 100%;
+  height: 80vh;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero__img-container {
+  display: flex;
+  justify-content: center;
+  /* background-image: url("../public/images/ronaldo.jpeg"); */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  /* flex-flow: column nowrap; */
+  color: white;
+}
+.navbar-expand > .container-fluid {
+  flex-wrap: unset;
+}
+.hero__image {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(92, 59, 15);
+}
+
+.layout-nav {
+  background: chocolate;
+  align-self: left;
+  height: 100%;
+  color: rgb(31, 13, 194);
+}
+
+.footer {
+  height: 10vh;
+}
+
+.company-logo {
+  height: 80%;
+}
+.media-icons {
+  height: 80%;
+}
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  font-size: 20px;
+  position: center;
+  background: turquoise;
+  align-self: left;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar a {
+  margin: 0 10px;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.homeImage {
+  height: 100%;
+  max-width: 100%;
+}
+.hero__img-container {
+  display: flex;
+  justify-content: center;
+  /* background-image: url("./public/images/ronaldo.jpeg"); */
+  background-size: cover;
+  width: 100%;
+  align-items: center;
+  /* flex-flow: column nowrap; */
+  color: black;
+  position: relative;
+}
+
+.hero__image {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(92, 59, 15);
+}
+
+.page-title {
+  background: rgb(60, 60, 224);
+  min-height: 45px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 80vh;
+  /* background-image: url("../public/images/ronaldo.jpeg"); */
+  width: 100%;
+  background-size: cover;
+}
+
+.shoe-wrapper {
+  padding: 10px;
+}
+
+.shoe-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 5px 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.shoe-container:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.shoe-image {
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .shoe-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.shoe-description {
+  padding: 0 10px;
+  flex-grow: 2;
+}
+
+/* .shoe-price {
+} */
+
+.main-footer {
+  background-color: rgb(179, 11, 25);
+  min-height: 90px;
+  display: flex;
+  width: 90%;
+  height: 10vh;
+}
+
+.company-logo {
+  height: 80%;
+}
+.container {
+  flex-wrap: unset;
+}
+
+.media-icon {
+  height: 100%;
+}
+
+.contact-html {
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(7, 7, 73);
+  width: 100% margin, 10px;
+}
+
+.media-links {
+  height: 80%;
+}
+svg {
+  color: white;
+}
