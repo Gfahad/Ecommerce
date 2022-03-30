@@ -1,37 +1,31 @@
+// import { className } from "postcss-selector-parser";
 import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="navigation">
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <div className="container">
-          <NavLink className="navbar-brand" to="/">
-            FAHAD'S SOCCER SHOES
-          </NavLink>
-          <div>
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/home">
-                  Home
-                  <span className="sr-only">(current)</span>
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/product">
-                  Product
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
-                  Contact
-                </NavLink>
-              </li>
-            </ul>
-          </div>
+    <nav className="navbar">
+      <div className="logo">FAHAD'S SOCCER SHOES</div>
+      <ul className="nav-links">
+        <div className="menu">
+          <li>
+            <NavLink className="nav-link" to="/home">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/product">
+              Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="nav-link" to="/contact">
+              Contact
+            </NavLink>
+          </li>
         </div>
-      </nav>
-    </div>
+      </ul>
+    </nav>
   );
 }
 

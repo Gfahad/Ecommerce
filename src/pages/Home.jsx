@@ -2,9 +2,9 @@ import React from "react";
 
 function Home() {
   const pictures = [
-    "./images/ronaldo.jpeg",
-    "./images/ronaldinho.jpeg",
-    "./images/zlatan.jpeg",
+    "./images/ronaldo1.jpg",
+    "./images/CurvedKick1.jpg",
+    "./images/mesut1.jpg",
   ];
 
   const [index, setIndex] = React.useState(0);
@@ -29,7 +29,7 @@ function Home() {
     return () => {
       resetTimeout();
     };
-  }, [index]);
+  }, [index, pictures]);
 
   return (
     <div className="Home">
@@ -45,7 +45,7 @@ function Home() {
         <main class="layout-main">
           <div class="hero__wrapper">
             <div class="hero__img-container">
-              <img className="homeImage" src={pictures[index]}></img>
+              <img className="homeImage" alt="" src={pictures[index]}></img>
             </div>
           </div>
         </main>
